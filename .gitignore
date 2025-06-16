@@ -18,3 +18,5 @@ coverage.xml
 *.cover
 *.log
 .git
+data/raw
+preprocess
