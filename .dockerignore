@@ -21,3 +21,8 @@ coverage.xml
 .git
 .mypy_cache
 .hypothesis
+data/raw/*
+!data/raw/.gitkeep
+notebooks/__pycache__/
+notebooks/*.ipynb_checkpoints
+notebooks/preprocess.ipynb

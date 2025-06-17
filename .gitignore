@@ -19,4 +19,7 @@ coverage.xml
 *.log
 .git
 data/raw
-preprocess
+notebooks/preprocess.ipynb
+!data/raw/.gitkeep
+notebooks/__pycache__/
+notebooks/*.ipynb_checkpoints

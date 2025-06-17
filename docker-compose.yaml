@@ -2,7 +2,8 @@ services:
     jupyter-service:
       container_name: notebooks
       build:
-        context: ./notebooks
+        context: .
+        dockerfile: ./notebooks/Dockerfile
       entrypoint: "scripts/docker-entrypoint.sh"
       user: root
       restart: always
@@ -10,3 +11,4 @@ services:
         - 8085:8085
       volumes:
         - "./notebooks:/home/src"
+        - "./data:/home/src/data"
