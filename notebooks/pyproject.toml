@@ -9,6 +9,11 @@ readme = "README.md"
 python = "^3.11"
 pandas = "^2.3.0"
 numpy = "^2.3.0"
+mlforecast = "^1.0.2"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.3"
+scipy = "^1.15.3"
+statsmodels = "^0.14.4"
 
 
 [build-system]
