@@ -1,6 +1,9 @@
 #!/bin/bash
 
-PYTHONPATH=$PYTHONPATH:/home/src jupyter notebook \
-  --ip=0.0.0.0 \
+jupyter notebook \
+  --NotebookApp.token='' \
+  --NotebookApp.password='' \
+  --NotebookApp.allow_origin='*' \
   --port=8085 \
-  --allow-root 
+  --ip=0.0.0.0 \
+  --allow-root
