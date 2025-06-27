@@ -16,6 +16,8 @@ scipy = "^1.15.3"
 statsmodels = "^0.14.4"
 ipykernel = "^6.29.0"
 pyarrow = "^20.0.0"
+scikit-learn = "^1.7.0"
+pymannkendall = "^1.4.3"
 
 
 [build-system]
